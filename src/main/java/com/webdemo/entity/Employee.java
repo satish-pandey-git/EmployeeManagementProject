@@ -21,6 +21,8 @@ public class Employee {
 
 	private String address;
 
+	private String mobile;
+
 	public Long getId() {
 		return id;
 	}
