@@ -19,6 +19,8 @@ public class Employee {
     @Column(name = "department", nullable = false)
     private String department;
 
+	private String address;
+
 	public Long getId() {
 		return id;
 	}
